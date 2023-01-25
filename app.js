@@ -31,7 +31,7 @@ var year=dob.getFullYear();
 if(date.value===""){
     output.innerHTML="Please Enter Date Correctly";
 }
-if(year<1000){
+else if(year<1000){
     output.innerHTML="Please Enter Birth Year Correctly";  
 }else{
 
