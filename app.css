@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    flex-direction:column ;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left:30vw;
+    margin-right: 30vw;
+    background-color: blueviolet;
+    
+    
+}
+p{
+    font-size: larger;
+}
+label{
+    font-size: 1.5em ;
+    margin: 20px;
+}
+input{
+    font-size: 25px;
+    width:40vw;
+    border: 3px solid black;
+    color: rgba(0, 0, 0, 0.699);
+}
+button{
+   font-size:larger ; 
+   margin:35px ;
+   border-radius: 0rem;
+   border: 0px  ;
+   padding: 0.7rem;
+
+}
+button:hover{
+    cursor: pointer;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: center;  
+    margin-bottom: 0px; 
+    
+}
+li{
+    margin-top: 45px;
+    padding-right: 20px;
+    list-style: none;
+    
+}
